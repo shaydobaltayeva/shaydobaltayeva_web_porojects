@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="uz">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Oddiy HTML forma (CSS va JS yo'q)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        p{
+
+            color: white;
+
+        }
+
+    </style>
+</head>
+<body>
+<h1 style="color: red;">Kontakt formasi</h1>
+<p>Quyida <code>input</code>, <code>select</code> va <code>textarea</code> elementlari faqat HTML bilan ko'rsatilgan.</p>
+
+<form action="#" method="post" autocomplete="on">
+    <fieldset>
+        <legend>Shaxsiy ma'lumotlar</legend>
+
+        <p>
+            <label for="fullname">Ism va familiya:<br>
+                <input id="fullname" name="fullname" type="text" placeholder="Anvar Karimov" required>
+            </label>
+        </p>
+
+        <p>
+            <label for="email">Elektron pochta:<br>
+                <input id="email" name="email" type="email" placeholder="name@example.com" required>
+            </label>
+        </p>
+
+        <p>
+            <label for="phone">Telefon:<br>
+                <input id="phone" name="phone" type="tel" placeholder="+998901234567">
+            </label>
+        </p>
+
+        <p>
+            <label for="age">Yosh:<br>
+                <input id="age" name="age" type="number" min="1" max="120" placeholder="Yosh">
+            </label>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Murojaat haqida</legend>
+
+        <p>
+            <label for="topic">Mavzu:<br>
+                <select id="topic" name="topic" required>
+                    <option value="">— Tanlang —</option>
+                    <option value="support">Texnik yordam</option>
+                    <option value="sales">Savdo / Taklif</option>
+                    <option value="feedback">Fikr va takliflar</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label for="message">Xabar:<br>
+                <textarea id="message" name="message" rows="6" placeholder="Xabaringizni shu yerga yozing..." required></textarea>
+            </label>
+        </p>
+    </fieldset>
+
+    <p>
+        <label>
+            <input type="checkbox" name="subscribe"> Yangiliklarga obuna bo'lish
+        </label>
+    </p>
+
+    <p>
+        <button style="background-color: #444444;" type="submit">Yuborish</button>
+        <button type="reset">Tozalash</button>
+    </p>
+</form>
+
+<script>
+    const a = 5;
+    const b = 8;
+    const c = a+b;
+
+    console.log("Natija C= "+c);
+</script>
+</body>
+</html>

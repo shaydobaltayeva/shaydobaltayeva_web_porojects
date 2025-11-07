@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+.container > .items {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.container > .items .img{
+
+}
+
+.container > .items .img img{
+
+}
+
+.container > .items .content{
+
+}
+
+.container > .items .content .meta-data{
+
+}
+
+.container > .items .content .description{
+
+}
+.container > .items .footer{
+
+}
+
+
+.container > .items .footer .button{
+
+}
+
